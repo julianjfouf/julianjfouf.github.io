@@ -17,7 +17,6 @@ export default function Home() {
       <div className={`container mx-auto px-4 pb-9`}>
         <div className="flex flex-col items-center">
           <Navbar designed={designed} setDesigned={setDesigned} />
-          <Raw />
         </div>
       </div>
       {/*designed ? <Designed /> : <Raw />*/}
