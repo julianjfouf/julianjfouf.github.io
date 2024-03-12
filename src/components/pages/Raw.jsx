@@ -187,7 +187,7 @@ const Raw = () => {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-2 py-9">
+      {/* <div className="flex flex-col gap-2 py-9">
         <h1 className="text-xl">Interests/Hobbies</h1>
         <ul className="list-disc pl-8 mt-2 flex flex-col gap-4">
           <li>
@@ -244,7 +244,7 @@ const Raw = () => {
               ): <br />
               <span className="block mt-1">
                 It started on Valentine's Day in 2022 when I went to the gym
-                with my friends{/*, Malik and Hanh*/}. At the time we barely had
+                with my friends, Malik and Hanh. At the time we barely had
                 a clue about what we were doing but we still found it to be fun
                 and interesting with all the different machines and exercises
                 that we could do together. We began to invite more and more of
@@ -256,7 +256,7 @@ const Raw = () => {
             </p>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
