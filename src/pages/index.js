@@ -15,10 +15,12 @@ export default function Home() {
   return (
     <main className="bg-white min-h-screen">
       <div className={`container mx-auto px-4 pb-9`}>
-        <Navbar designed={designed} setDesigned={setDesigned} />
-        <Raw />
-        {/*designed ? <Designed /> : <Raw />*/}
+        <div className="flex flex-col items-center">
+          <Navbar designed={designed} setDesigned={setDesigned} />
+          <Raw />
+        </div>
       </div>
+      {/*designed ? <Designed /> : <Raw />*/}
     </main>
   );
 }
