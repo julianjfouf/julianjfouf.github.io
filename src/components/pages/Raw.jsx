@@ -42,11 +42,121 @@ const Raw = () => {
           <li>
             <p className="max-w-xl">
               <a
+                href="https://ergomania.net"
+                target="_blank"
+                className="font-bold underline text-blue-700 hover:text-blue-500"
+              >
+                Ergomania (website link)
+              </a>{" "}
+              (<i>October 2024</i>
+              ): <br />
+              <span className="block mt-1">
+                Helped out another friend by setting up a custom ecommerce site
+                for their product (this website is not actively being used
+                because we found it is not needed). Special thanks to Vercel for
+                their ecommerce template that saved us a lot of time.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="max-w-xl">
+              <a
+                href="https://github.com/julianjfouf/TritonTransformer"
+                target="_blank"
+                className="font-bold underline text-blue-700 hover:text-blue-500"
+              >
+                Triton Attention (github link)
+              </a>{" "}
+              (<i>September 2024</i>
+              ): <br />
+              <span className="block mt-1">
+                While working on Triton Transformer, I went deep into the
+                Attention algorithm and made some improvements that "seem" to
+                perform better than F.scaled_dot_product(attention) across
+                varying batch sizes, context lengths, and hidden dimension
+                sizes.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="max-w-xl">
+              <a
+                href="https://github.com/julianjfouf/TritonTransformer"
+                target="_blank"
+                className="font-bold underline text-blue-700 hover:text-blue-500"
+              >
+                Triton Transformer (github link)
+              </a>{" "}
+              (<i>September 2024</i>
+              ): <br />
+              <span className="block mt-1">
+                Learned Triton over a weekend thanks to the documentation's
+                super effective tutorials. Did this project to practice and to
+                attempt to run a transformer fully in Triton faster than
+                PyTorch. Learned that PyTorch is extremely good.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="max-w-xl">
+              <a
+                href="https://github.com/julianjfouf/Paperstack"
+                target="_blank"
+                className="font-bold underline text-blue-700 hover:text-blue-500"
+              >
+                Paperstack (github link)
+              </a>{" "}
+              (<i>August 2024</i>
+              ): <br />
+              <span className="block mt-1">
+                A small little project I made to help organize and keep track of
+                papers that I came across and wanted to read/save for future
+                use. (login does not work in production, falls back to local
+                storage instead).{" "}
+                <a
+                  href="https://paperstack-murex.vercel.app"
+                  target="_blank"
+                  className="underline text-blue-700 hover:text-blue-500"
+                >
+                  (website link)
+                </a>
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="max-w-xl">
+              <a
+                href="https://github.com/julianjfouf/danosdetailingremastered"
+                target="_blank"
+                className="font-bold underline text-blue-700 hover:text-blue-500"
+              >
+                Dano's Detailing Remastered (github link)
+              </a>{" "}
+              (<i>July 2024</i>
+              ): <br />
+              <span className="block mt-1">
+                Remaster of the Dano's Detailing website to improve ease of
+                navigation, design, performance, and to prioritize mobile
+                experience.{" "}
+                <a
+                  href="https://danosdetailing.com"
+                  target="_blank"
+                  className="underline text-blue-700 hover:text-blue-500"
+                >
+                  (website link)
+                </a>
+                , recommended viewing on mobile.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="max-w-xl">
+              <a
                 href="https://github.com/julianjfouf/TinyStoriesGPT"
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Story Generator
+                Story Generator (github link)
               </a>{" "}
               (<i>March 2024</i>
               ): <br />
@@ -79,7 +189,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Poem Generator
+                Poem Generator (github link)
               </a>{" "}
               (<i>February 2024</i>
               ): <br />
@@ -96,7 +206,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                CIFAKE AI Image Detector
+                CIFAKE AI Image Detector (github link)
               </a>{" "}
               (<i>January 2024</i>
               ): <br />
@@ -121,7 +231,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Shakespeare Generator
+                Shakespeare Generator (github link)
               </a>{" "}
               (<i>December 2023</i>
               ): <br />
@@ -139,7 +249,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Twitter Clone
+                Twitter Clone (github link)
               </a>{" "}
               (<i>July 2023</i>
               ): <br />
@@ -157,7 +267,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Malik's Tints
+                Malik's Tints (github link)
               </a>{" "}
               (<i>June 2023</i>
               ): <br />
@@ -175,7 +285,7 @@ const Raw = () => {
                 target="_blank"
                 className="font-bold underline text-blue-700 hover:text-blue-500"
               >
-                Dano's Detailing
+                Dano's Detailing (github link)
               </a>{" "}
               (<i>May 2023</i>
               ): <br />
